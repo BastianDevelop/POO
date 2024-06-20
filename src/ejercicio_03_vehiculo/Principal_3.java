@@ -42,7 +42,7 @@ public class Principal_3 {
             car[i] = new Vehiculo(marca, modelo, precio);
         }
         indiCoche = indiceCarCheap(car);
-        System.out.println("\nEl coche ma barato es: ");
+        System.out.println("\nEl coche mas barato es: ");
         System.out.println(car[indiCoche].mostrarDatos());
     }
 }
