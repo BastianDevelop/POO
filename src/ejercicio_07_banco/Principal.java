@@ -1,3 +1,10 @@
+/*
+Hacer un programa sencillo para realizar gestiones en un banco, tendremos 2 clases (Cliente y Cuenta)
+El cliente tendra un nombre, apellido, dni.
+El cliente puede consultar saldo, ingresar y retirar dinero de sus cuentas.
+Las Cuentas tendra un numero de cuenta y saldo.
+*/
+
 package ejercicio_07_banco;
 
 import java.util.Scanner;
@@ -105,6 +112,5 @@ public class Principal {
           System.out.println("");
       }
     }while(opcion != 4);
-
   }
 }

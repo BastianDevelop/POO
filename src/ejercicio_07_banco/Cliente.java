@@ -1,3 +1,11 @@
+/*
+Hacer un programa sencillo para realizar gestiones en un banco, tendremos 2 clases (Cliente y Cuenta)
+El cliente tendra: nombre, apellido, dni.
+El cliente puede consultar saldo, ingresar y retirar dinero de sus cuentas.
+Las Cuentas tendra un numero de cuenta y saldo.
+*/
+
+
 package ejercicio_07_banco;
 
 public class Cliente {
@@ -14,17 +22,9 @@ public class Cliente {
     this.cuentas = cuentas;
   }
 
-  public String getNombre() {
-    return nombre;
-  }
-
-  public String getApellido() {
-    return apellido;
-  }
-
-  public String getDni() {
-    return dni;
-  }
+  public String getNombre() { return nombre; }
+  public String getApellido() { return apellido; }
+  public String getDni() { return dni; }
 
   public double consultar_saldo(int n){
     return cuentas[n].getSaldo();
@@ -35,5 +35,4 @@ public class Cliente {
   public void retirar_dinero(int n, double cantidad){
     cuentas[n].retirarDinero(cantidad);
   }
-
 }
