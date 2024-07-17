@@ -18,7 +18,6 @@ public class Principal_3 {
         return indice;
     }
 
-
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);

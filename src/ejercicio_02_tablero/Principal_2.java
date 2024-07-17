@@ -45,7 +45,7 @@ public class Principal_2 {
                 case 5: break;
                 default: System.out.println("No entiende que es del 1 al 5...");
             }
-            System.out.print("La poscicion actual en (x, y): ("+tab.getX()+" , "+tab.getY()+")"+"\n");
+            System.out.print("La poscicion actual:  (X: " +tab.getX()+")   (Y: "+tab.getY()+")"+"\n");
 
         }while (opc != 5);
         System.out.println("\nMueve esas coordenadas como una marikita...");
